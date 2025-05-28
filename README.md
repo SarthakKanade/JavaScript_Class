@@ -270,7 +270,8 @@
     Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
 
 ## **Bonus:**
-1. Why is using let safer than var?
+**1. Why is using let safer than var?**
+
 Answer:
 Using let is considered safer and more modern than var for several reasons. The most important is scope: variables declared with let are block-scoped, meaning they only exist within the block (like inside loops or conditionals) where they are declared. This prevents variables from leaking into the wider function or global scope, reducing the risk of accidental overwrites and bugs.
 In contrast, var is function-scoped or globally scoped, so a var variable declared inside a block can be accessed outside of it, which can cause confusion and errors.
@@ -281,7 +282,8 @@ References:
 https://www.w3schools.com/js/js_let.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
-2. What is the main benefit of separating JavaScript from HTML?
+**2. What is the main benefit of separating JavaScript from HTML?*8
+
 Answer:
 Separating JavaScript from HTML offers several major benefits for web development.
 First, maintainability: when JavaScript code is kept in separate files or sections, it is much easier to update, debug, and maintain the codebase.
@@ -294,7 +296,8 @@ References:
 https://www.w3schools.com/js/js_whereto.asp
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 
-3. Why is Math.random() useful in games or UI effects?
+**3. Why is Math.random() useful in games or UI effects?**
+
 Answer:
 Math.random() is a built-in JavaScript function that generates a pseudo-random floating-point number between 0 (inclusive) and 1 (exclusive).
 In games, this function is essential for creating unpredictability: for example, randomizing enemy behavior, item drops, or character movement.
@@ -307,7 +310,8 @@ https://www.geeksforgeeks.org/javascript-math-random-method/
 https://www.w3schools.com/js/js_random.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
-4. What happens if two event listeners are attached to the same element?
+**4. What happens if two event listeners are attached to the same element?**
+
 Answer:
 When two (or more) event listeners are attached to the same element for the same event, both listeners will be triggered when the event occurs.
 For example, if you add two "click" event listeners to a button, clicking the button will run both functions.
@@ -320,7 +324,8 @@ https://www.geeksforgeeks.org/javascript-addeventlistener-with-examples/
 https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
-5. Why should we use functions to organize code?
+**5. Why should we use functions to organize code?**
+
 Answer:
 Functions are fundamental tools for organizing code in JavaScript.
 Modularity: Functions allow you to break down complex problems into smaller, manageable pieces, making code easier to read, debug, and maintain.
